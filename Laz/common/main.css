@@ -1,13 +1,26 @@
 /* .profile-image:hover .overlay {
     position: absolute;
-    /* width: 48px;
+    width: 48px;
     height: 48px;
-    z-index: 100; 
+    z-index: 100;
     background: transparent url("images/6.jpg") no-repeat;
     cursor: pointer;
 } */
+.profile-image:hover .overlay {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    z-index: 100;
+    background: transparent url('images/6.jpg') no-repeat;
+    cursor: pointer;
+}
 
-div:hover {
+/* div:hover {
     background-color: green;
     cursor: pointer;
+} */
+
+h1,
+h2 {
+    color: red;
 }
